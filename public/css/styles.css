@@ -1,7 +1,25 @@
 .container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
+   
+        padding: 2% 5%;
 }
+h1 {
+    font-size: 600%;
+    
+    font-family: 'Oswald', sans-serif;
+    color: #3895d3;
+  }
+  h2{
+    font-size: 350%;
+    
+    font-family: 'Oswald', sans-serif;
+    color: #3895d3;
+
+  }
+  p{
+      font-family: "Raleway", sans-serif;
+      font-weight: bold;
+      font-size: x-large
+  }
 .navbar {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -10,6 +28,13 @@
     margin-bottom: 0;
     font-size: 12px;
     letter-spacing: 5px;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;
+    background-image: linear-gradient(120deg, #e0c3fc 0, #8ec5fc 100%);
+}
+.header{
+    padding: 2% 5%;
+    text-align: center;
+
 }
 .navbar-nav  li a:hover {
     color: #1abc9c !important;
@@ -25,7 +50,8 @@
 	bottom: 0;
 	width: 100%;
 	height: 60px;
-	background-color: #1abc9c;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;
+    background-image: linear-gradient(120deg, #e0c3fc 0, #8ec5fc 100%);
 }
 
 .footer p {
